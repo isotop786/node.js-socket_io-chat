@@ -96,9 +96,9 @@ io.on('connection',(socket)=>{
 
 
 
-// app.get('/',(req,res)=>{
-//     res.send('<h1 style="text-align:center">socket.io nodejs backend </h1>')
-// })
+app.get('/',(req,res)=>{
+    res.send('<h1 style="text-align:center">socket.io nodejs backend </h1>')
+})
 
-// server.listen(4000,()=> 'Server is running on port 4000');
-io.listen(4000,()=> 'Server is running on port 4000');
+server.listen(4000,()=> 'Server is running on port 4000');
+// io.listen(4000,()=> 'Server is running on port 4000');
