@@ -20,5 +20,9 @@
   },
   "scripts":{
     "dev":"nodemon index.js"
+  },
+  "engines" : { 
+    "npm" : ">= 9.7.1",
+    "node" : ">=16.20.0"
   }
 }
